@@ -12,6 +12,14 @@ int getSum(vector<int> vectorToBeSummed){
     return resultOfSum;
 }
 
+int getMin(vector<int> vectorToGetMinOf){
+    int minimum = 1000000;
+    for(auto iterator:vectorToGetMinOf){
+        minimum = min(minimum,iterator);
+    }  
+    return minimum;
+}
+
 
 
 int getAverage(vector<int> vectorToBeAveraged){
@@ -31,7 +39,8 @@ int main(){
 
 
 
-
+    vector<int> minVetor = {1,2,3,4,5,6,7,8,9,10};
+    cout << getMin(minVetor) << "\n";
 
 
     return 0;
