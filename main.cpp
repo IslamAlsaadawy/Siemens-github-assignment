@@ -35,9 +35,6 @@ int main(){
 
     vector<int> averageVector = {1,2,3,4,5,6,7,8,9,10};
     cout << getAverage(averageVector) << "\n";
-    
-
-
 
     vector<int> minVetor = {1,2,3,4,5,6,7,8,9,10};
     cout << getMin(minVetor) << "\n";
